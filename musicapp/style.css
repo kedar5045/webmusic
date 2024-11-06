@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+html,
+body{
+    font-family:"Roboto";
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #483D8B;
+    position:sticky;
+    top:0px;
+    box-shadow: 5px 5px 5px rgb(25, 24, 24);
+    z-index:100;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    position:sticky;
+    top:0px;
+    margin:0px auto;
+    max-width: 1200px;
+    padding:15px;
+}
+.nav ul{
+    display:flex;
+    gap:25px;
+    list-style-type:none;
+    border:solid 2px transparent;
+    transition: 0.2s ease-in;
+}
+.nav a:hover{
+    border-bottom:solid 2px white;
+    transition: 0.2s ease-in;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.elements{
+    width:300px;
+    margin-left:1200px;
+    display:flex;
+    justify-content: space-between;
+    font-size:20px;
+    color:white;
+}
+.logo{
+    color:white;
+    font-size: 20px;
+    margin-left:20px;
+}
+.heroimage{
+    background-image: url("images/hero_image\ \(1\).png");
+    width:100%;
+    height:100vh;
+    position:relative;
+    background-position: center;
+    background-size: cover;
+
+}
+.text{
+    position:relative;
+    top:350px;
+    left:650px;
+    color:white;
+    font-size: 70px;
+    font-weight: 70px;
+}
+#infotext{
+    color:white;
+    position:relative;
+    top:400px;
+    left:400px;
+    font-size:40px;
+}
+.musictext{
+    position: relative;
+    top:400px;
+    left:500px;
+    color:white;
+    width:700px;
+}
+.purplebackground{
+    background-color: #483D8B;
+    height:100vh;
+    width:100%;
+}
+body{
+    overflow-x:hidden;
+}
+#musiclogo{
+    font-size: 30px;
+    color:white;
+    position:relative;
+    top:30px;
+    left:700px;
+}
+#musiclogo::before{
+    content:"🎵";
+    color:white;
+}
+#musiclogo2{
+    font-size: 30px;
+    color:white;
+    position:relative;
+    top:80px;
+    left:500px;
+}
+.description{
+    color:white;
+    margin-top:90px;
+    margin-left:550px;
+    width:600px;
+}
+#buttonstart{
+    background-color: red;
+    margin-left:700px;
+    margin-top:400px;
+}
+#startbutton{
+    background-color: red;
+    margin-top:60px;
+    padding:10px;
+    font-family:roboto;
+}
+.whitebackground{
+    background-color: white;
+    position:relative;
+    height:100vh;
+    width:100%;
+}
+.macimage{
+    position:relative;
+    top:200px;
+    left:350px;
+    height:100px;
+
+}
+.videoimage{
+    background-image: url("images/video.png");
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    width:100%;
+    position: relative;
+}
+.white2background{
+    background-color: white;
+    position:relative;
+    height:80vh;
+    width:100%;
+    display: flex;
+    column-gap: 70px;
+   
+}
+.image{
+    position:relative;
+    top:150px;
+    left:40px;
+    
+}
+.sentence{
+    margin-top:40px;
+    margin-left:60px;
+    width:600px;
+    padding:10px;
+    
+}
+#redem{
+    font-family:Courier;
+    color:white;
+    padding:5px;
+    width:90px;
+    margin-top:20px;
+}
+.footer{
+    font-family: "Roboto";
+    height:50vh;
+    width:100%;
+    background-color: #483D8B;
+}
+.elements2{
+    font-family:georgia;
+    width:800px;
+    display:grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    column-gap: 90px;
+    align-items: center;
+    color:white;
+    position:relative;
+    top:80px;
+    left:450px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+.elements2 ul{
+    list-style: none;
+    align-items: center;
+}
+.last{
+    background-color: blue;
+    width:100%;
+}
+h3{
+    color:white;
+    padding:10px;
+    margin-left:600px;
+}
+#videosentence{
+    position:relative;
+    top:150px;
+    left:450px;
+    color:white;
+    width:700px;
+}
+.videopara{
+    width:750px;
+    color:white;
+    position:relative;
+    top:200px;
+    left:450px;
+}
+    
